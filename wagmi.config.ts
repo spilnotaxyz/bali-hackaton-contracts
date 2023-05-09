@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [
     foundry({
       project: '.',
-      include: ['Counter.sol/**'],
+      include: ['Partnership.sol/**'],
       forge: {
         build: true,
       },
