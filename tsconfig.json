@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "jsx": "preserve",
+      "jsxImportSource": "@emotion/react",
+      "lib": ["DOM", "ES2015"],
+      "module": "ESNext",
+      "target": "es6",
+      "moduleResolution": "nodenext"
+    },
+    "include": ["."],
+    "exclude": ["node_modules"]
+  }
+  
