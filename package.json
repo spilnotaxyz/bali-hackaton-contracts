@@ -4,10 +4,11 @@
   "private": true,
   "license": "MIT",
   "type": "module",
+  "main": "wagmi.hooks.ts",
   "scripts": {
     "hooks": "pnpm wagmi generate",
     "dev": "forge script script/Deploy.s.sol:DeployScript --fork-url http://localhost:8545 --broadcast",
-    "sepoila": "forge script script/Deploy.s.sol:DeployScript --rpc-url $SEPOLIA_RPC_URL --broadcast --verify -vvvv"
+    "sepolia": "source .env && forge script script/Deploy.s.sol:DeployScript --rpc-url $SEPOLIA_RPC_URL --broadcast --verify -vvvv"
   },
   "devDependencies": {
     "wagmi": "^0.12.13",
@@ -15,3 +16,4 @@
     "typescript": "^5.0.4"
   }
 }
+
