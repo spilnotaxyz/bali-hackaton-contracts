@@ -26,7 +26,7 @@ contract Partnership is ERC721, ERC721Enumerable, ERC721URIStorage, Ownable {
 
     mapping(bytes32 => Colaboration[]) public partnerships;
 
-    constructor() ERC721("Partnership", "MTK") {}
+    constructor() ERC721("Partnership", "PTSHP") {}
 
     function tokenURI(
         uint256 tokenId
